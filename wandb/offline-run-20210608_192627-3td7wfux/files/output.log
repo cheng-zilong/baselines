@@ -1,0 +1,78 @@
+
+ep=0 ep_reward=0.0 ep_frame=23 total_fram=23
+/home/chengzilong/anaconda3/envs/myenv/lib/python3.7/site-packages/gym/logger.py:30: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+2021-06-08 19:26:32.638911: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2021-06-08 19:26:32.686533: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties:
+name: GeForce RTX 2080 SUPER major: 7 minor: 5 memoryClockRate(GHz): 1.815
+pciBusID: 0000:82:00.0
+2021-06-08 19:26:32.686869: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-06-08 19:26:32.688574: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2021-06-08 19:26:32.690142: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2021-06-08 19:26:32.690531: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2021-06-08 19:26:32.692608: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2021-06-08 19:26:32.694151: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2021-06-08 19:26:32.699093: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-06-08 19:26:32.700523: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0
+2021-06-08 19:26:32.701036: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2021-06-08 19:26:32.715464: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2299980000 Hz
+2021-06-08 19:26:32.718371: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x555b85fcbcf0 executing computations on platform Host. Devices:
+2021-06-08 19:26:32.718396: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): Host, Default Version
+2021-06-08 19:26:32.894872: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x555b85faf470 executing computations on platform CUDA. Devices:
+2021-06-08 19:26:32.894915: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): GeForce RTX 2080 SUPER, Compute Capability 7.5
+2021-06-08 19:26:32.896382: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties:
+name: GeForce RTX 2080 SUPER major: 7 minor: 5 memoryClockRate(GHz): 1.815
+pciBusID: 0000:82:00.0
+2021-06-08 19:26:32.896472: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-06-08 19:26:32.896531: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2021-06-08 19:26:32.896585: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2021-06-08 19:26:32.896637: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2021-06-08 19:26:32.896689: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2021-06-08 19:26:32.896741: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2021-06-08 19:26:32.896795: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-06-08 19:26:32.899283: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0
+2021-06-08 19:26:32.899387: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-06-08 19:26:32.900907: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-06-08 19:26:32.900943: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      0
+2021-06-08 19:26:32.900959: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 0:   N
+2021-06-08 19:26:32.903634: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 7455 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2080 SUPER, pci bus id: 0000:82:00.0, compute capability: 7.5)
+2021-06-08 19:26:34.281620: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2021-06-08 19:26:34.470374: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-06-08 19:26:35.111330: E tensorflow/stream_executor/cuda/cuda_dnn.cc:329] Could not create cudnn handle: CUDNN_STATUS_INTERNAL_ERROR
+2021-06-08 19:26:35.113834: E tensorflow/stream_executor/cuda/cuda_dnn.cc:329] Could not create cudnn handle: CUDNN_STATUS_INTERNAL_ERROR
+2021-06-08 19:26:35.113946: W tensorflow/core/common_runtime/base_collective_executor.cc:216] BaseCollectiveExecutor::StartAbort Unknown: Failed to get convolution algorithm. This is probably because cuDNN failed to initialize, so try looking to see if a warning log message was printed above.
+	 [[{{node conv2d/Conv2D}}]]
+Traceback (most recent call last):
+  File "/home/chengzilong/Test/example.py", line 177, in <module>
+    main()
+  File "/home/chengzilong/Test/example.py", line 172, in main
+    agent.train()
+  File "/home/chengzilong/Test/example.py", line 148, in train
+    action = self.q.get_action(np.array(state_tensor), ep)
+  File "/home/chengzilong/Test/example.py", line 82, in get_action
+    return self.get_optimal_action(state)
+  File "/home/chengzilong/Test/example.py", line 85, in get_optimal_action
+    z = self.model.predict(state)
+  File "/home/chengzilong/anaconda3/envs/myenv/lib/python3.7/site-packages/tensorflow_core/python/keras/engine/training.py", line 909, in predict
+    use_multiprocessing=use_multiprocessing)
+  File "/home/chengzilong/anaconda3/envs/myenv/lib/python3.7/site-packages/tensorflow_core/python/keras/engine/training_arrays.py", line 722, in predict
+    callbacks=callbacks)
+  File "/home/chengzilong/anaconda3/envs/myenv/lib/python3.7/site-packages/tensorflow_core/python/keras/engine/training_arrays.py", line 393, in model_iteration
+    batch_outs = f(ins_batch)
+  File "/home/chengzilong/anaconda3/envs/myenv/lib/python3.7/site-packages/tensorflow_core/python/keras/backend.py", line 3740, in __call__
+    outputs = self._graph_fn(*converted_inputs)
+  File "/home/chengzilong/anaconda3/envs/myenv/lib/python3.7/site-packages/tensorflow_core/python/eager/function.py", line 1081, in __call__
+    return self._call_impl(args, kwargs)
+  File "/home/chengzilong/anaconda3/envs/myenv/lib/python3.7/site-packages/tensorflow_core/python/eager/function.py", line 1121, in _call_impl
+    return self._call_flat(args, self.captured_inputs, cancellation_manager)
+  File "/home/chengzilong/anaconda3/envs/myenv/lib/python3.7/site-packages/tensorflow_core/python/eager/function.py", line 1224, in _call_flat
+    ctx, args, cancellation_manager=cancellation_manager)
+  File "/home/chengzilong/anaconda3/envs/myenv/lib/python3.7/site-packages/tensorflow_core/python/eager/function.py", line 511, in call
+    ctx=ctx)
+  File "/home/chengzilong/anaconda3/envs/myenv/lib/python3.7/site-packages/tensorflow_core/python/eager/execute.py", line 67, in quick_execute
+    six.raise_from(core._status_to_exception(e.code, message), None)
+  File "<string>", line 3, in raise_from
+tensorflow.python.framework.errors_impl.UnknownError:  Failed to get convolution algorithm. This is probably because cuDNN failed to initialize, so try looking to see if a warning log message was printed above.
+	 [[node conv2d/Conv2D (defined at /anaconda3/envs/myenv/lib/python3.7/site-packages/tensorflow_core/python/framework/ops.py:1751) ]] [Op:__inference_keras_scratch_graph_979]
+Function call stack:
+keras_scratch_graph

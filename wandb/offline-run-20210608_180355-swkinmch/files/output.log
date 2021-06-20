@@ -1,0 +1,49 @@
+/home/chengzilong/anaconda3/envs/myenv/lib/python3.7/site-packages/gym/logger.py:30: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+WARNING:tensorflow:From /home/chengzilong/anaconda3/envs/myenv/lib/python3.7/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+2021-06-08 18:04:00.359121: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2021-06-08 18:04:00.402819: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties:
+name: GeForce RTX 2080 SUPER major: 7 minor: 5 memoryClockRate(GHz): 1.815
+pciBusID: 0000:82:00.0
+2021-06-08 18:04:00.403068: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-06-08 18:04:00.404353: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2021-06-08 18:04:00.405505: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2021-06-08 18:04:00.405788: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2021-06-08 18:04:00.407276: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2021-06-08 18:04:00.408377: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2021-06-08 18:04:00.411823: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-06-08 18:04:00.412875: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0
+2021-06-08 18:04:00.414054: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2021-06-08 18:04:00.432109: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2299980000 Hz
+2021-06-08 18:04:00.434849: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x56262386dd60 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-06-08 18:04:00.434876: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-06-08 18:04:00.435744: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties:
+name: GeForce RTX 2080 SUPER major: 7 minor: 5 memoryClockRate(GHz): 1.815
+pciBusID: 0000:82:00.0
+2021-06-08 18:04:00.435800: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-06-08 18:04:00.435832: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2021-06-08 18:04:00.435856: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2021-06-08 18:04:00.435880: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2021-06-08 18:04:00.435904: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2021-06-08 18:04:00.435929: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2021-06-08 18:04:00.435954: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-06-08 18:04:00.437310: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0
+2021-06-08 18:04:00.437367: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-06-08 18:04:00.610459: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-06-08 18:04:00.610504: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      0
+2021-06-08 18:04:00.610512: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 0:   N
+2021-06-08 18:04:00.612311: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 7455 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2080 SUPER, pci bus id: 0000:82:00.0, compute capability: 7.5)
+2021-06-08 18:04:00.614380: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5626225150a0 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2021-06-08 18:04:00.614400: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): GeForce RTX 2080 SUPER, Compute Capability 7.5
+Traceback (most recent call last):
+  File "/home/chengzilong/Test/example.py", line 177, in <module>
+    main()
+  File "/home/chengzilong/Test/example.py", line 172, in main
+    agent.train()
+  File "/home/chengzilong/Test/example.py", line 148, in train
+    action = self.q.get_action(np.array(state_tensor), ep)
+  File "/home/chengzilong/anaconda3/envs/myenv/lib/python3.7/site-packages/tensorflow_core/python/framework/ops.py", line 736, in __array__
+    " array.".format(self.name))
+NotImplementedError: Cannot convert a symbolic Tensor (ExpandDims:0) to a numpy array.

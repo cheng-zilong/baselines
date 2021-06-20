@@ -1,0 +1,23 @@
+{
+    "os": "Linux-5.8.0-49-generic-x86_64-with-debian-bullseye-sid",
+    "python": "3.7.10",
+    "heartbeatAt": "2021-06-08T11:24:36.055934",
+    "startedAt": "2021-06-08T11:24:34.193604",
+    "docker": null,
+    "gpu": "GeForce RTX 2080 SUPER",
+    "gpu_count": 1,
+    "cpu_count": 56,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/openai/baselines.git",
+        "commit": "ea25b9e8b234e6ee1bca43083f8f3cf974143998"
+    },
+    "email": null,
+    "root": "/home/chengzilong/Test/baselines/baselines",
+    "host": "mal-server",
+    "username": "chengzilong",
+    "executable": "/home/chengzilong/anaconda3/envs/myenv/bin/python"
+}
